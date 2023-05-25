@@ -189,6 +189,9 @@ int main() {
 			case '3' :
 				obj.ascending();
 				break;
+			case '4' :
+				obj.descending();
+				break;
 			}
 		}
 	}
