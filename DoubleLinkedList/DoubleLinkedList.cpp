@@ -42,5 +42,10 @@ void DoubleLinkedList::addNode() {
 	newNode->noMhs = nim;
 	newNode->name = Nama;
 
-	if
+	if (START == NULL || nim <= START->noMhs) {
+		if (START != NULL && nim == START->noMhs) {
+			cout << "\nDuplicate Number Not Allowed" << endl;
+			return;
+		}
+	}
 }
