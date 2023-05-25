@@ -195,6 +195,8 @@ int main() {
 			case '5' :
 				obj.searchData();
 				break;
+			case '6' :
+				return 0;
 			}
 		}
 	}
