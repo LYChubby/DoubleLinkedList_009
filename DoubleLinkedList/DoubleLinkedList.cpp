@@ -129,3 +129,16 @@ void DoubleLinkedList::descending() {
 		}
 	}
 }
+
+void DoubleLinkedList::hapus() {
+	if (listEmpty()) {
+		cout << "\nList Is Empty" << endl;
+
+	}
+	cout << "\nEnter The Roll Number Of Student Whose Record Is To Be Deleted : ";
+	int rollNo;
+	cin >> rollNo;
+	cout << endl;
+	if (DoubleLinkedList::deleteNode(rollNo) == false)
+		cout << "Record With Roll Number " << rollNo << " Deleted" << endl;
+}
