@@ -202,5 +202,8 @@ int main() {
 				break;
 			}
 		}
+		catch (exception& e) {
+			cout << "Check For The Values Entered" << endl;
+		}
 	}
 }
