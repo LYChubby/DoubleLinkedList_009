@@ -178,6 +178,10 @@ int main() {
 			cout << "7. \nEnter Your Choice (1 - 6) : ";
 			char ch;
 			cin >> ch;
+
+			switch (ch) {
+
+			}
 		}
 	}
 }
