@@ -192,6 +192,9 @@ int main() {
 			case '4' :
 				obj.descending();
 				break;
+			case '5' :
+				obj.searchData();
+				break;
 			}
 		}
 	}
