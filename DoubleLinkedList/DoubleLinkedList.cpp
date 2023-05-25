@@ -114,3 +114,18 @@ void DoubleLinkedList::ascending() {
 	}
 }
 
+void DoubleLinkedList::descending() {
+	if (listEmpty())
+		cout << "\nList Is Empty" << endl;
+	else {
+		cout << "\nRecords In Descending Order Of Roll Number Are : " << endl;
+		Node* currentNode = START;
+		while (currentNode->next != NULL)
+			currentNode = currentNode->next;
+
+		while (currentNode != NULL) {
+			cout << currentNode->noMhs << " " << currentNode->name << endl;
+			currentNode = currentNode->prev;
+		}
+	}
+}
